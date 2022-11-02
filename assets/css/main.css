@@ -1,0 +1,88 @@
+.app {
+    overflow: hidden;
+}
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #191718;
+    overflow-x: hidden;
+  }
+  
+  .sidenav a {
+    height: 44px;
+    padding: 14px 0px 11px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #AAAAAA;
+    display: block;
+    border-bottom: 1px solid #5C5C5C ;
+  }
+  .sidenav a.active{
+    color: #fff;
+  }
+  .sidenav a:hover {
+    color: #fff;
+    background-color: #AAAAAA;
+  }
+
+
+/* app container */
+
+.app__container {
+    background-color: #FFFFFF;
+    margin-left: 150px;
+}
+.app__content {
+    padding-top: 36 px;
+}
+.logo{
+    margin: 20px 0 30px;
+}
+
+
+.content{
+    background-color: #EFEFEF;
+    padding: 38px 269px;
+    margin-bottom: 40px;
+}
+.content h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.content p, .item p{
+    font-size: 16px;
+    color: var(--black-color);
+}
+
+.item h4{
+    color: var(--black-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.item__img img{
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 6px;
+}
+
+/*footer  */
+.footer {
+    background-color: var(--white-color);
+    border-top: 1px solid #DEDEDE;
+    margin-left: 150px;
+}
+.footer__bottom {
+    padding: 30px 0px 30px 129px;
+}
+.footer__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3E3E3E;
+}
